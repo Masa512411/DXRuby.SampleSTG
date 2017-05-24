@@ -8,7 +8,7 @@ require 'dxruby'
 Window.caption = ("サンプルSTG")
 
 #自機の作成
-player = Sprite.new(0, 0, Image.load("player.png"))
+player = Sprite.new(0, 200, Image.load("player.png"))
 
 #敵機の作成
 enemy = Sprite.new(0, 0, Image.new(10, 10, C_GREEN))
